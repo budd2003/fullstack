@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>Interactive Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is the most common name in "United States"?</p>
+                <input type="radio" name="q1" value="John"> John<br>
+                <input type="radio" name="q1" value="Carter"> Carter<br>
+                <input type="radio" name="q1" value="Smith"> Smith<br>
+                <input type="radio" name="q1" value="Abby"> Abby<br>
+            </div>
+            <div class="question">
+                <p>2. Which planet in the Milky Way is the "hottest"?</p>
+                <input type="radio" name="q2" value="Venus"> Venus<br>
+                <input type="radio" name="q2" value="Mercury"> Mercury<br>
+                <input type="radio" name="q2" value="Saturn"> Saturn<br>
+                <input type="radio" name="q2" value="Mars"> Mars<br>
+            </div>
+            <div class="question">
+                <p>3. What sports car company manufactures the 911?</p>
+                <input type="radio" name="q3" value="Lexus"> Lexus<br>
+                <input type="radio" name="q3" value="Ferrari"> Ferrari<br>
+                <input type="radio" name="q3" value="BMW"> BMW<br>
+                <input type="radio" name="q3" value="Porche"> Porche<br>
+            </div>
+            <div class="question">
+                <p>4. What company was initially known as "Blue Ribbon Sports"?</p>
+                <input type="radio" name="q4" value="Puma"> Puma<br>
+                <input type="radio" name="q4" value="RedTape"> RedTape<br>
+                <input type="radio" name="q4" value="Nike"> Nike<br>
+                <input type="radio" name="q4" value="Adidas"> Adidas<br>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="layout.js"></script>
+</body>
+
+</html>
